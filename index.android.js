@@ -1,4 +1,3 @@
-// Index.android.js - placecode in here for Android
 
 // Import React library
 import React from 'react';
@@ -12,7 +11,7 @@ import AlbumList from './src/components/AlbumList';
 
 const App = () => {
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <Header headerText={'Albums'} />
       <AlbumList />
     </View>
